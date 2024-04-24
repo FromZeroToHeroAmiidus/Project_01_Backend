@@ -19,6 +19,11 @@ export class AuthService {
     const hash = await argon.hash(dto.password);
     // save the new user in the db
     try {
+      if (dto.password != dto.confirmPassword)
+        throw new ForbiddenException(
+          'Password and Confirm Password Must Match!',
+        );
+
       const user = await this.prisma.user.create({
         data: {
           email: dto.email,
