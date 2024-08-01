@@ -7,7 +7,7 @@ import {
   NotEquals,
 } from 'class-validator';
 
-export class signUpDto {
+export class SignUpDto {
   @IsEmail()
   @IsNotEmpty()
   email: string;
