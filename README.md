@@ -1,73 +1,132 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+# AuctionBay
+
+<p style="text-align: center;">
+    <img src="https://github.com/FromZeroToHeroAmiidus/Project_01_Frontend/blob/main/ReadMeFiles/landing_page.jpg" alt="Landing Page">
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## SkillUpMentor's Project for Students at Their Practice
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<p style="text-align: center;">Welcome to <strong>AuctionBay</strong>! This project was designed as a practical exercise for students under SkillUpMentor’s guidance. AuctionBay allows users to create auctions, place bids, and manage their listings all in one platform.</p>
+
+### 📹 Video with all Features (one little slip in there, but fixed after)
+
+<p style="text-align: center;">
+    <a href="https://www.youtube.com/watch?v=_wxuceU5HXc" target="_blank">
+        <img src="https://img.youtube.com/vi/_wxuceU5HXc/0.jpg" alt="AuctionBay Overview">
+    </a>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+### 🖼️ Project Design
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Here's a glimpse into how the database was designed and its relationships:
 
-## Installation
+- **We had to draw our first ideas for our database (entities, relations ... )**
 
-```bash
-$ yarn install
-```
+<p style="text-align: center;">
+    <img src="https://github.com/FromZeroToHeroAmiidus/Project_01_Frontend/blob/main/ReadMeFiles/entities_.jpg" alt="Database Schema">
+</p>
 
-## Running the app
+- **Relationships and Flow**
 
-```bash
-# development
-$ yarn run start
+<p style="text-align: center;">
+    <img src="https://github.com/FromZeroToHeroAmiidus/Project_01_Frontend/blob/main/ReadMeFiles/relations_.jpg" alt="Database Relations">
+</p>
 
-# watch mode
-$ yarn run start:dev
+<p style="text-align: center;">
+    <img src="https://github.com/FromZeroToHeroAmiidus/Project_01_Frontend/blob/main/ReadMeFiles/bids_.jpg" alt="Database Bids">
+</p>
 
-# production mode
-$ yarn run start:prod
-```
+### 💡 Project Overview
 
-## Test
+<p style="text-align: center;">
+    **AuctionBay** is an interactive platform where users can:
+    <ul>
+        <li><strong>Publish Auctions</strong>: List items for auction and set the parameters.</li>
+        <li><strong>Bid on Items</strong>: Participate in auctions by placing bids on items.</li>
+        <li><strong>Manage Listings</strong>: Track ongoing auctions and bids.</li>
+        <li><strong>Cancel Auctions</strong>: Delete an auction before it concludes.</li>
+        <li><strong>View Completed Auctions</strong>: Once an auction finishes, it’s archived and accessible for reference.</li>
+    </ul>
+    </br>
+        <ul>
+        <li><strong>Use profile setting</strong>: To tailor their data as they wish.</li>
+        <li><strong>Securely login</strong>: Every password is hashed and behind JWT technology.</li>
+        <li><strong>Reset password</strong>: We send you confirm e-mail and then generated password.</li>
+        <li><strong>Create a new account</strong>: Simply and straightforward.</li>
+    </ul>
+</p>
 
-```bash
-# unit tests
-$ yarn run test
+### 📐 Pixel Perfect Design
 
-# e2e tests
-$ yarn run test:e2e
+For precise UI design, we have received Figma's design. Tried my best that implementation aligns perfectly with the design specifications.
+Huge praise to SkillUpMentor's member Alen Budimir for outstanding work at design.
 
-# test coverage
-$ yarn run test:cov
-```
+<p style="text-align: center;">
+    <img src="https://github.com/FromZeroToHeroAmiidus/Project_01_Frontend/blob/main/ReadMeFiles/figma.png" alt="Figma Design">
+</p>
 
-## Support
+### 🛠️ Technologies Used
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+This project leverages a variety of technologies to ensure a robust and modern web application:
 
-## Stay in touch
+- ![Figma](https://img.shields.io/badge/Figma-000?logo=figma&logoColor=white) **Figma**
+- ![CSS](https://img.shields.io/badge/CSS-000?logo=css3&logoColor=white) **CSS**
+- ![HTML](https://img.shields.io/badge/HTML-000?logo=html5&logoColor=white) **HTML**
+- ![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-000?logo=tailwindcss&logoColor=white) **Tailwind CSS**
+- ![Node.js](https://img.shields.io/badge/Node.js-000?logo=node.js&logoColor=white) **Node.js**
+- ![Nest.js](https://img.shields.io/badge/NestJS-000?logo=nestjs&logoColor=white) **Nest.js**
+- ![React.js](https://img.shields.io/badge/React.js-000?logo=react&logoColor=white) **React.js**
+- ![Typescript](https://img.shields.io/badge/TypeScript-000?logo=typescript&logoColor=white) **TypeScript**
+- ![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript&logoColor=white) **JavaScript**
+- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?logo=postgresql&logoColor=white) **PostgreSQL**
+- ![Prisma](https://img.shields.io/badge/Prisma-000?logo=prisma&logoColor=white) **Prisma**
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+### 🚀 Getting Started
 
-## License
+#### Frontend (VITE)
 
-Nest is [MIT licensed](LICENSE).
+I suggest you to first git clone the project and then follow commands to install required dependencies
+
+1. Open terminal in VSC (to install dependencies)
+
+   ```bash
+   yarn install
+
+   ```
+
+2. To run it in dev mode
+   ```bash
+   npm run dev
+   ```
+
+#### Backend (NEST.JS)
+
+I suggest you to first git clone the project and then follow commands to install required dependencies
+
+1. Open terminal in VSC (to install dependencies)
+
+   ```bash
+   yarn install
+
+   ```
+
+2. To run it in dev mode
+
+   ```bash
+   yarn start:dev
+
+   ```
+
+3. Users who use Windows may need to use specific command to run work
+   ```bash
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
+
+### 📜 License
+
+Hereby i give all (if me, poor peasant, have any) copyrights to the rightful owner, https://skillupmentor.com/.
+Make sure to visit their site or bump them on mail : hey@skillupmentor.com
+
+<p style="text-align: center;">
+    <img src="https://skillupmentor.com/media/skillupmentorLogoArrowsVertical.png" alt="SkillUpMentor Logo">
+</p>
